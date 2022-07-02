@@ -19,7 +19,7 @@ We aim to **provide intel to the business owner** for making **proper business d
 ## **Python Libraries**
 ![alt text](https://user-images.githubusercontent.com/101919460/177001487-f69fe828-b887-43f5-893e-313ed2f12916.png "Py Libraries")
 
-* **_How to Install the Requirements?_**
+* **_How to Install the [requirements](https://github.com/sukhmani1303/Billing-and-Business-Management/blob/main/requirements.txt) ?_**
 
 Inside the terminal (with admin. permissions) enter the following
 
@@ -53,6 +53,22 @@ pip install -r requirements.txt
 * Analyze inventory of items
 * To make the best use of shelf space
 * To get a clear overview of the entire business
+***
+# **SETUP DATABASE**
+1. [Download]("https://www.apachefriends.org/download.html") & Install Xampp in the default directory
+
+2. Open Xampp and Start the following Services
+   * Apache
+   * MySQL
+   <br>
+   <img width="427" alt="image" src="https://user-images.githubusercontent.com/101919460/177002963-a72068a3-9b37-4d1e-a549-3708b3524ae8.png">
+
+3. Open any Browser & go to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
+
+4. Create a new Database and name it **_pbl_**
+
+5. Select pbl & Import the file [import_me.sql](https://github.com/sukhmani1303/Billing-and-Business-Management/blob/main/db/import_me.sql)
+
 ***
 ## **ER Diagram**
 ![alt text](https://user-images.githubusercontent.com/101919460/177001379-d8d8be10-64cf-4c79-b9c1-46a1a318c5b5.png "ER DIAGRAM")
