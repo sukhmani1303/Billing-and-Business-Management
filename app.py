@@ -385,10 +385,19 @@ def billing_app_page():
     barcode_all_df = pd.read_sql(barcode_qry, mycon)
     barcode_all_list = barcode_all_df['barcode'].tolist()
 
+    global cnt123
+
+    cnt123 = False
+
+    def asd123():
+        global cnt123
+        cnt123 = True
+        messagebox.showinfo("PRODUCT NOT AVAILABLE", "Pls add the product to inventory first !")
+        cnt123 = False
+
     def show_frame():
         _, img = cap.read()
         img = cv2.resize(img, (400, 350))
-        # frame = cv2.flip(img, 1)
         frame = img
         cv2image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGBA)
         hhh = ii.fromarray(cv2image)
@@ -509,8 +518,8 @@ def billing_app_page():
                             "PRODUCT NOT AVAILABLE", "The Quantity of Product is Zero")
 
             else:
-                messagebox.showinfo("PRODUCT NOT AVAILABLE",
-                                    "Pls add the product to inventory first !")
+                if cnt123 == False:
+                    asd123()
 
             time.sleep(1.2)
 
@@ -935,8 +944,8 @@ def billing_app_page():
 
                 # ========== email ===================
 
-                EMAIL_ADDRESS = 'safe.testingbot@gmail.com'
-                EMAIL_PASSWORD = 'eagvrbxobhysyjoo'
+                EMAIL_ADDRESS = 'YOUR EMAIL GOES HERE'
+                EMAIL_PASSWORD = 'YOUR PASSWORD GOES HERE'
                 order_number = bill_id_new  # bill number
                 msg = EmailMessage()
                 msg['Subject'] = str(
@@ -2416,7 +2425,6 @@ def sales_analysis_main():
 def bill_display_analysis():
     global cam1, cam2, capp, cap
     global sac1_e, sac2_e, sac3_e, sac4_e, sac5_e, sac6_e, sac7_e
-    
     if cam1:
         cam1 = False
         cap.release()
@@ -2514,12 +2522,11 @@ def bill_display_analysis():
 
 
 billing_frame.pack(fill=BOTH, expand=1)
-
 billing_app_page()
 # running
 
 root.protocol("WM_DELETE_WINDOW", on_closing_window)
-
 root.mainloop()
 
-# 2525th line, yay!
+
+# の実演はすべて終了
