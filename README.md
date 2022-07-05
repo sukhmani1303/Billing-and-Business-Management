@@ -1,6 +1,8 @@
 *This my project for First Year CSE*
 # **Billing and Business Management**
 
+![image](https://user-images.githubusercontent.com/101919460/177272881-aa92c71e-8272-4d7a-86f2-391f99f3a878.png)
+
 ## **Introduction**
 We aim to **provide intel to the business owner** for making **proper business decisions** to facilitate a **better revenue stream** along with an adequate record for the same.
 ***
