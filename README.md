@@ -1,4 +1,4 @@
-*This my project for First Year CSE*
+*This is my project for First Year CSE*
 # **Billing and Business Management**
 
 ![image](https://user-images.githubusercontent.com/101919460/177272881-aa92c71e-8272-4d7a-86f2-391f99f3a878.png)
