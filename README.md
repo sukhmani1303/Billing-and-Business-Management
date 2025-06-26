@@ -102,11 +102,11 @@ pip install -r requirements.txt
 
 Thanks to the following people who have contributed to this project:
 
+- [@sukhmani1303](https://github.com/sukhmani1303) – Project Lead  
+  Developed the main project structure and core modules.
+
 - [@Killmonger2002](https://github.com/Killmonger2002) – Backend Developer  
   Contributed in database design and barcode id registration
-
-- [@sukhmani1303](https://github.com/sukhmani1303) – Project Lead  
-  Developed the main project structure.
 
 - [@louremipsum](https://github.com/louremipsum) – UI/UX Designer  
   Designed the visual layout and user interface experience.
