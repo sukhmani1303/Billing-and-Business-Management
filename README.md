@@ -95,3 +95,19 @@ pip install -r requirements.txt
 
 # **MEET THE TEAM**
 ![image](https://user-images.githubusercontent.com/101919460/177002314-2eab632d-858a-4b76-9f7f-42a7fcbe1878.png)
+
+---
+
+## 👥 Contributors
+
+Thanks to the following people who have contributed to this project:
+
+- [@Killmonger2002](https://github.com/Killmonger2002) – Backend Developer  
+  Contributed in database design and barcode id registration
+
+- [@sukhmani1303](https://github.com/sukhmani1303) – Project Lead  
+  Developed the main project structure.
+
+- [@louremipsum](https://github.com/louremipsum) – UI/UX Designer  
+  Designed the visual layout and user interface experience.
+
